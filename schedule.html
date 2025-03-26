@@ -11,19 +11,27 @@
     <script>
         function highlightCurrentTime() {
             let now = new Date();
-            let hours = now.getHours();
+            let hours = now.getHours(); // 24-hour format
             let minutes = now.getMinutes();
             let formattedTime = (hours % 12 || 12) + ":" + (minutes < 10 ? "0" + minutes : minutes) + (hours >= 12 ? " PM" : " AM");
             document.getElementById("current-time-display").innerText = "Current Time: " + formattedTime;
-            
+
+            // Highlight the correct time slot
             document.querySelectorAll(".time-slot").forEach(slot => {
                 slot.classList.remove("highlight");
-                if (slot.dataset.hour == hours) {
+                let slotHour = parseInt(slot.dataset.hour);
+                
+                // Adjust for 12-hour format
+                if (slotHour === 12) {
+                    slotHour = 0; // 12 AM = 0 in 24-hour format
+                }
+
+                if (slotHour === hours) {
                     slot.classList.add("highlight");
                 }
             });
         }
-        setInterval(highlightCurrentTime, 60000);
+        setInterval(highlightCurrentTime, 60000); // Update every minute
         window.onload = highlightCurrentTime;
     </script>
 </head>

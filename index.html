@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ataah King - Blog</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function loadSchedule() {
+            console.log("Loading schedule..."); // Debugging line
+            fetch('schedule.html')
+                .then(response => response.text())
+                .then(data => {
+                    console.log("Schedule loaded:", data); // Debugging line
+                    document.querySelector('.content').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading schedule:', error));
+        }
+
+        function loadPosts() {
+            console.log("Loading posts..."); // Debugging line
+            fetch('posts.html')
+                .then(response => response.text())
+                .then(data => {
+                    console.log("Posts loaded:", data); // Debugging line
+                    document.querySelector('.content').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading posts:', error));
+        }
+
+        // Default load posts when page is loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            loadPosts(); // Load posts by default
+        });
+    </script>
 </head>
 <body>
     <div class="header">
@@ -12,8 +40,8 @@
     </div>
     
     <div class="menu">
-        <button class="menu-btn">POSTS</button>
-        <button class="menu-btn">SCHEDULE</button>
+        <button class="menu-btn" onclick="loadPosts()">POSTS</button>
+        <button class="menu-btn" onclick="loadSchedule()">SCHEDULE</button>
         <button class="menu-btn">PICTURES</button>
         <button class="menu-btn">VIDEOS</button>
         <button class="menu-btn">SOCIALS</button>
@@ -21,17 +49,7 @@
     </div>
 
     <div class="content">
-        <div class="post">
-            <h2>Post Title 1</h2>
-            <p>Posted on March 24, 2025</p>
-            <p>This is the first blog post content. Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="post">
-            <h2>Post Title 2</h2>
-            <p>Posted on March 23, 2025</p>
-            <p>This is the second blog post content. Lorem ipsum dolor sit amet.</p>
-        </div>
-        <!-- More posts here -->
+        <!-- Content will be loaded dynamically here -->
     </div>
 
     <script src="script.js"></script>

@@ -61,6 +61,49 @@ body {
     line-height: 1.5;
 }
 
+.schedule-container {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.time-slot {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: Roboto Slab, serif;
+}
+
+.time-slot h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.time-slot p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.current-time {
+    background: #ffcc00;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Roboto Slab, serif;
+    font-size: 1.1em;
+}
+
+.highlight {
+    background-color: rgba(255, 204, 0, 0.3);
+}
+
+.dual-task {
+    font-style: italic;
+    color: #555;
+}
+
 @media (max-width: 768px) {
     .menu-btn {
         font-size: 1em;
@@ -70,3 +113,91 @@ body {
         width: 90%;
     }
 }
+
+/* Styles for highlighting current time slot */
+.time-slot.highlight {
+    background-color: #ffcc00; /* Highlight color */
+    color: white;
+    font-weight: bold;
+}
+
+/* Additional style for the time display */
+.current-time {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Styling for the schedule container */
+.schedule-container {
+    font-family: 'Merriweather', serif;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+.time-slot {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 1.1em;
+}
+
+/* Dual-task styling */
+.time-slot.dual-task {
+    background-color: #f1f1f1;
+}
+
+/* Hover effect */
+.time-slot:hover {
+    background-color: #e0e0e0;
+}
+
+@media (max-width: 600px) {
+    .post {
+        padding: 10px;
+    }
+
+    .post h2 {
+        font-size: 1.5em;
+    }
+
+    .post p {
+        font-size: 1em;
+    }
+}
+
+/* Styles for the posts */
+.post {
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.post p {
+    font-family: 'Merriweather', serif;
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.post p:first-of-type {
+    font-style: italic;
+    color: #888;
+}
+
