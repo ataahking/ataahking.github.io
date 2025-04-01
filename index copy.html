@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ataah King</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function showSection(section) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach((el) => {
+                el.style.display = 'none';
+            });
+
+            // Show the selected section
+            document.getElementById(section).style.display = 'block';
+        }
+
+        // Default to showing posts when the page loads
+        window.onload = () => {
+            showSection('posts');
+        };
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Ataah King</h1>
+    </div>
+    
+    <div class="menu">
+        <button class="menu-btn" onclick="showSection('posts')">POSTS</button>
+        <button class="menu-btn" onclick="showSection('schedule')">SCHEDULE</button>
+        <button class="menu-btn" onclick="showSection('pictures')">PICTURES</button>
+        <button class="menu-btn" onclick="showSection('videos')">VIDEOS</button>
+        <button class="menu-btn" onclick="showSection('socials')">SOCIALS</button>
+        <button class="menu-btn" onclick="showSection('music')">MUSIC</button>
+    </div>
+
+    <!-- Content Sections -->
+    <div id="posts" class="content-section">
+        <h2>Posts Section</h2>
+        <p>This is the posts section content.</p>
+    </div>
+
+    <div id="schedule" class="content-section" style="display:none;">
+        <h2>Schedule Section</h2>
+        <p>This is the schedule section content.</p>
+    </div>
+
+    <div id="pictures" class="content-section" style="display:none;">
+        <h2>Pictures Section</h2>
+        <p>This is the pictures section content.</p>
+    </div>
+
+    <div id="videos" class="content-section" style="display:none;">
+        <h2>Videos Section</h2>
+        <p>This is the videos section content.</p>
+    </div>
+
+    <div id="socials" class="content-section" style="display:none;">
+        <h2>Socials Section</h2>
+        <p>This is the socials section content.</p>
+    </div>
+
+    <div id="music" class="content-section" style="display:none;">
+        <h2>Music Section</h2>
+        <p>This is the music section content.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
