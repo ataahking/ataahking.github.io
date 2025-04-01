@@ -25,9 +25,16 @@
                 .catch(error => console.error('Error loading navigation:', error));
         }
 
-        document.addEventListener('DOMContentLoaded', function () {
-            loadNavigation();
-        });
+        function loadPosts() {
+            console.log("Loading posts..."); // Debugging line
+            fetch('posts.html')
+                .then(response => response.text())
+                .then(data => {
+                    console.log("Posts loaded:", data); // Debugging line
+                    document.querySelector('.content').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading posts:', error));
+        }
 
         function loadSchedule() {
             console.log("Loading schedule..."); // Debugging line
@@ -40,20 +47,10 @@
                 .catch(error => console.error('Error loading schedule:', error));
         }
 
-        function loadPosts() {
-            console.log("Loading posts..."); // Debugging line
-            fetch('posts.html')
-                .then(response => response.text())
-                .then(data => {
-                    console.log("Posts loaded:", data); // Debugging line
-                    document.querySelector('.content').innerHTML = data;
-                })
-                .catch(error => console.error('Error loading posts:', error));
-        }
-
         // Default load posts when page is loaded
         document.addEventListener('DOMContentLoaded', function () {
-            loadPosts(); // Load posts by default
+            loadNavigation(); // Load navigation function
+            loadPosts(); // Load posts by default   
         });
 
     </script>
@@ -62,8 +59,9 @@
 
 <body>
     
+    <!-- title.html -->
     <div class="header">
-        <h1>Ataah King</h1>
+        <h1>ATAAH KING</h1>
     </div>
     
     <div class="nav-container"></div>

@@ -117,7 +117,7 @@ body {
 /* Styles for highlighting current time slot */
 .time-slot.highlight {
     background-color: #ffcc00; /* Highlight color */
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
@@ -201,3 +201,47 @@ body {
     color: #888;
 }
 
+/* Basic styling for the navigation menu */
+.nav-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows buttons to wrap onto the next line */
+    justify-content: center; /* Centers the buttons horizontally */
+    gap: 10px; /* Adds some space between buttons */
+    padding: 10px;
+}
+
+.menu-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    min-width: 120px; /* Ensures buttons don't become too small */
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column; /* Stacks the items vertically */
+        align-items: center; /* Centers items horizontally when stacked */
+    }
+
+    .menu-btn {
+        width: 100%; /* Makes each button take full width on mobile */
+        margin-bottom: 10px; /* Adds space between stacked buttons */
+    }
+}
+
+/* For larger screen sizes, the buttons should still be horizontal */
+@media (min-width: 769px) {
+    .nav-container {
+        flex-direction: row; /* Ensures horizontal layout */
+    }
+
+    .menu-btn {
+        width: auto; /* Ensures buttons take their natural width */
+    }
+}
