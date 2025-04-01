@@ -14,6 +14,21 @@
 
     <script>
 
+        function loadNavigation() {
+            console.log("Loading navigation...");
+            fetch('navigation.html')
+                .then(response => response.text())
+                .then(data => {
+                    console.log("Navigation loaded:", data);
+                    document.querySelector('.nav-container').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading navigation:', error));
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            loadNavigation();
+        });
+
         function loadSchedule() {
             console.log("Loading schedule..."); // Debugging line
             fetch('schedule.html')
@@ -51,14 +66,7 @@
         <h1>Ataah King</h1>
     </div>
     
-    <div class="menu">
-        <button class="menu-btn" onclick="loadPosts()">POSTS</button>
-        <button class="menu-btn" onclick="loadSchedule()">SCHEDULE</button>
-        <button class="menu-btn">PICTURES</button>
-        <button class="menu-btn">VIDEOS</button>
-        <button class="menu-btn">SOCIALS</button>
-        <button class="menu-btn">MUSIC</button>
-    </div>
+    <div class="nav-container"></div>
 
     <div class="content">
         <!-- Content will be loaded dynamically here -->
