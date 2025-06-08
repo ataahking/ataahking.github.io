@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daily Schedule
+title: Schedule
 nav_order: 5
 permalink: /schedule/
 ---
