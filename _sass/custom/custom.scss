@@ -107,3 +107,13 @@
   background-color: #6a0dad99; /* darker purple */
   transition: background-color 0.2s ease;
 }
+
+.schedule-table tbody tr:hover a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.schedule-table tbody tr:hover a:hover {
+  color: #ffb6c1 !important;
+  transition: color 0.3s ease;
+}

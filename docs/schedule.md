@@ -20,59 +20,78 @@ Stay in sync with the daily mission.
     <!-- Single event (full width) -->
     <tr data-start="00:00" data-end="01:00">
       <td>12:00 AM – 1:00 AM</td>
-      <td colspan="3">Prayer & Bible Study</td>
-    </tr>
-
-    <!-- Two simultaneous events -->
-    <tr data-start="01:00" data-end="02:00">
-      <td>1:00 AM – 2:00 AM</td>
-      <td>Workout</td>
-      <td>Meal</td>
-      <td></td> <!-- Empty cell for 3rd column -->
+      <td>Prayer</td>
+      <td>Bible Study</td>
+      <td><a class="schedule-link" href="#">Notes</a></td>
     </tr>
 
     <!-- Three simultaneous events -->
-    <tr data-start="02:00" data-end="04:00">
-      <td>2:00 AM – 4:00 AM</td>
+    <tr data-start="01:00" data-end="03:00">
+      <td>1:00 AM – 3:00 AM</td>
       <td>Programming</td>
       <td>Emails</td>
       <td>Reading</td>
     </tr>
 
     <!-- Single event -->
-    <tr data-start="04:00" data-end="06:00">
-      <td>4:00 AM – 6:00 AM</td>
-      <td colspan="3">Music Production</td>
+    <tr data-start="03:00" data-end="07:00">
+      <td>3:00 AM – 7:00 AM</td>
+      <td colspan="3">[Nap]</td>
+    </tr>
+
+    <!-- Two simultaneous events -->
+    <tr data-start="07:00" data-end="08:00">
+      <td>7:00 AM – 8:00 AM</td>
+      <td>Hygiene</td>
+      <td>Meditation & Meal</td>
+      <td>Workout</td>
+       <!-- Empty cell for 3rd column -->
     </tr>
 
     <!-- Single event -->
-    <tr data-start="06:00" data-end="08:00">
-      <td>6:00 AM – 8:00 AM</td>
-      <td colspan="3">Social Media / Email / Reading</td>
+    <tr data-start="08:00" data-end="11:00">
+      <td>8:00 AM – 11:00 AM</td>
+      <td>Artist Development</td>
+      <td>Music Production</td>
+      <td>Socials</td>
     </tr>
 
     <!-- Single event -->
-    <tr data-start="08:00" data-end="14:00">
-      <td>8:00 AM – 2:00 PM</td>
-      <td colspan="3">Morning Worship (JUSS JABZZ)</td>
+    <tr data-start="11:00" data-end="14:00">
+      <td>11:00 AM – 2:00 PM</td>
+      <td colspan="3"><a class="schedule-link" href="https://tiktok.com/@jussjabzz_/live" target="_blank" rel="noopener">Morning Worship (JUSS JABZZ)</a></td>
     </tr>
 
     <!-- Single event -->
     <tr data-start="14:00" data-end="18:00">
       <td>2:00 PM – 6:00 PM</td>
-      <td colspan="3">Promo Campaigns / Trading / Sales</td>
+      <td colspan="3">[Nap]</td>
     </tr>
 
     <!-- Single event -->
-    <tr data-start="18:00" data-end="22:00">
-      <td>6:00 PM – 10:00 PM</td>
-      <td colspan="3">Content Creation / Rehearsals</td>
+    <tr data-start="18:00" data-end="21:00">
+      <td>6:00 PM – 9:00 PM</td>
+      <td>Promotions</td>
+      <td>Sales</td>
+      <td>Socials</td>
     </tr>
 
     <!-- Single event -->
-    <tr data-start="22:00" data-end="24:00">
-      <td>10:00 PM – 12:00 AM</td>
-      <td colspan="3">Reflection / Free Time</td>
+    <tr data-start="21:00" data-end="22:00">
+      <td>9:00 PM – 10:00 PM</td>
+      <td colspan="3">Advisory / Reflection</td>
+    </tr>
+
+    <!-- Single event -->
+    <tr data-start="22:00" data-end="23:00">
+      <td>10:00 PM – 11:00 PM</td>
+      <td colspan="3">Content Creation/Management & Organization</td>
+    </tr>
+
+    <!-- Single event -->
+    <tr data-start="23:00" data-end="24:00">
+      <td>11:00 PM – 12:00 AM</td>
+      <td colspan="3">Catch-up / Free Time</td>
     </tr>
   </tbody>
 </table>
