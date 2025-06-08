@@ -7,7 +7,7 @@ permalink: /schedule/
 
 # Daily Schedule
 
-Stay in sync with the daily mission.
+Stay in sync with ATAAH KING daily.
 
 <table class="schedule-table" id="daily-schedule">
   <thead>
