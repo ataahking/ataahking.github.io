@@ -22,7 +22,7 @@ Stay in sync with ATAAH KING daily.
       <td>12:00 AM – 1:00 AM</td>
       <td>Prayer</td>
       <td>Bible Study</td>
-      <td><a class="schedule-link" href="#">Notes</a></td>
+      <td><a class="schedule-link" href="/notes">Notes</a></td>
     </tr>
 
     <!-- Three simultaneous events -->
