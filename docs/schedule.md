@@ -53,7 +53,7 @@ Stay in sync with ATAAH KING daily.
       <td>8:00 AM – 11:00 AM</td>
       <td>Artist Development</td>
       <td>Music Production</td>
-      <td>Socials</td>
+      <td><a class="schedule-link" href="https://linktr.ee/ATAAHKING" target="_blank" rel="noopener">Socials</a></td>
     </tr>
 
     <!-- Single event -->
@@ -73,7 +73,7 @@ Stay in sync with ATAAH KING daily.
       <td>6:00 PM – 9:00 PM</td>
       <td>Promotions</td>
       <td>Sales</td>
-      <td>Socials</td>
+      <td><a class="schedule-link" href="https://linktr.ee/ATAAHKING" target="_blank" rel="noopener">Socials</a></td>
     </tr>
 
     <!-- Single event -->
