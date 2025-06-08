@@ -18,6 +18,7 @@ permalink: /
 {: .text-center }
 [GitHub<sup class="tmr">&reg;</sup>][Reignsound Press repo]{: .btn .btn-gh target="_blank" rel="noopener" .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Reignsound<sup class="tm">SM</sup> News](https://reignsoundnews.github.io/){: .btn .btn-red target="_blank" rel="noopener" .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Reignsound<sup class="tm">SM</sup> Press](https://reignsoundpress.github.io/){: .btn .btn-gray target="_blank" rel="noopener" .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Schedule](/schedule){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 
 ---

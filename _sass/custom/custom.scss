@@ -19,6 +19,25 @@
   background-color: #b71c1c;
 }
 
+.btn-gray {
+  @include btn-color($white, lightgray);
+  display: inline-block;
+  padding: 0.3em 1em;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: #d32f2f;
+  border-radius: 0.25rem;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-gray:hover {
+  color: rgb(87.0708860759, 56.8227848101, 205.9772151899);
+}
+
 .btn-gh {
   @include btn-color($white, #1a1a1a);
   display: inline-block;
@@ -32,6 +51,14 @@
   border-radius: 0.25rem;
   border: none;
   transition: background-color 0.2s ease-in-out;
+}
+
+.btn-gh:hover {
+  color: orange;
+}
+
+.btn-primary:hover {
+  color: orange;
 }
 
 .schedule-table {
