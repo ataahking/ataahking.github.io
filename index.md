@@ -22,7 +22,7 @@ permalink: /
 {: .mt-0 .mb-5 }
 
 {: .note }
-> **Editor's Note**: *This is an official press release by REIGNSOUNDXL<sup class="tm">TM</sup> covering Reignsound<sup class="tm">TM</sup> Records rapper [ATAAH KING](https://www.google.com/search?q=ataah+king&oq=ATAAH+KING). *See the [CHANGELOG](https://github.com/reignsoundpress/reignsoundpress.github.io/commits/main) for a list of revisions and ongoing edits*.
+> **Editor's Note**: *This is an official press release by REIGNSOUNDXL<sup class="tm">TM</sup> covering Reignsound<sup class="tm">TM</sup> Records rapper [ATAAH KING](https://www.google.com/search?q=ataah+king&oq=ATAAH+KING). See the [CHANGELOG](https://github.com/reignsoundpress/reignsoundpress.github.io/commits/main) for a list of revisions and ongoing edits*.
 
 Prior to his trial, ATAAH KING, the *Not One*<sup class="tm">TM</sup> and *Favorite Rapper*<sup class="tm">TM</sup> rapper, was in talks with Sony<sup class="tmr">&reg;</sup>, via AWAL<sup class="tmr">&reg;</sup> and The Orchard<sup class="tmr">&reg;</sup>, regarding the release of a forthcoming project.
 
