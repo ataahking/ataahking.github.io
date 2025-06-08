@@ -1183,278 +1183,292 @@
     "relUrl": "/docs/layout/minimal/minimal/"
   },"169": {
     "doc": "Notes",
+    "title": "Scripture Notes",
+    "content": ". Note: Scripture Note hours are dedicated to God—the intention is to start the day with God as the first focus. | Gratitude: thank God for the day | Obedience: meditate over God’s Word | . ",
+    "url": "/notes/#scripture-notes",
+    
+    "relUrl": "/notes/#scripture-notes"
+  },"170": {
+    "doc": "Notes",
+    "title": "June 8th, 2025",
+    "content": "ATAAH KING’s scripture notes for Saturday, June 8th, 2025: . Genesis 1:1 . Importance / Significance . This chapter is important because: . | It explains where God fits in, in the grand scheme of things | It sets the stage for what God expects from us (humans/people) | . Active Recall . When I read Genesis 1:1, I think about: . | How God created Heaven (the Hereafter) and Earth (right now) | How God exists beyond space and time . | Since God created the Heaven and the Earth, God exists beyond these/such things | God always is, was, and will be | God is omnipresent . | “God created…” . | Before these things existed, God existed | . | “And the spirit of God moved upon…” . | The presence of God was with God’s creation . | “e.g., God was with God's creation” | . | . | . | . | . Reflection . | This is a point I wanted to meditate on, because this is God’s creation. The creation in and of itself is perfect, as designed and intended by God. So after this chapter ended, I stopped reading and meditated on the word. | I’ve head before that to God, “a thousand years is like a second—or a day, etc.” . | Simply suggesting our perception of time and God's is not the same | The creation story takes course over 6 days; however, science suggests that it may have been hundreds of thousands, or millions, of years between the creation of Earth and the first appearance of humans | I believe this may be scripture somewhere in the Bible (when I find it, I will link to it. I know time is referenced in such a manner in the Qur’an as well) | . | . Distributed by: ReignsoundSM Publishing . Download: SN_2025-06-08 . ",
+    "url": "/notes/#june-8th-2025",
+    
+    "relUrl": "/notes/#june-8th-2025"
+  },"171": {
+    "doc": "Notes",
     "title": "Notes",
-    "content": "Scripture notes for Saturday, June 8th, 2025: . The last time (a couple days ago, maybe yesterday) I read the Bible, I left off at Genesis 1:1. This chapter is important because: . | It sets the stage for what God expects from us (humans/people) | . Today (June 8th, 2025) I plan to continue reading from where I left off. First, I’ll re-read chapter one and recall thoughts I had from my previous reading: . This hour is dedicated to God. We set the foundation for the day with God as the first focus. | Gratitude: thank God for the day | Obedience: meditate over God’s Word | . Distributed by: ReignsoundSM Publishing . Download: SN_2025-06-08 . ",
+    "content": " ",
     "url": "/notes/",
     
     "relUrl": "/notes/"
-  },"170": {
+  },"172": {
     "doc": "Ordering Pages",
     "title": "Ordering Pages",
     "content": "To specify a page order, you can use the nav_order parameter in the front matter of the pages. ",
     "url": "/docs/navigation/main/order/",
     
     "relUrl": "/docs/navigation/main/order/"
-  },"171": {
+  },"173": {
     "doc": "Ordering Pages",
     "title": "Example: using nav_order",
     "content": "--- title: Customization nav_order: 6 --- . The parameter values determine the order of the top-level pages, and of child pages with the same parent. You can reuse the same parameter values (e.g., integers starting from 1) for the child pages of different parents. The parameter values can be numbers (integers, floats1) and/or strings. When you omit nav_order parameters, they default to the titles of the pages, which are ordered alphabetically. Pages with numerical nav_order parameters always come before those with strings or default nav_order parameters. If you want to make the page order independent of the page titles, you can set explicit nav_order parameters on all pages. The order of pages with equal nav_order parameters is unstable: it may change with each build. By default, all Capital letters come before all lowercase letters; you can add nav_sort: case_insensitive in the configuration file to ignore the case.2 . Enclosing strings in quotation marks in front matter is optional, unless they contain “[”, “]”, “{”, “}”, “,”, “: ”, or “ #”. Boolean, integer, and float values are treated as strings when enclosed in quotation marks. | Jekyll treats each integer N as equal to the corresponding float N.0. &#8617; . | Note for users of previous versions of Just the Docs: The option nav_sort: case_insensitive previously affected the ordering of numerical nav_order parameters: e.g., 10 came before 2. Also, all pages with explicit nav_order parameters previously came before all pages with default parameters. Both were potentially confusing, and they have now been eliminated. &#8617; . | . ",
     "url": "/docs/navigation/main/order/#example-using-nav_order",
     
     "relUrl": "/docs/navigation/main/order/#example-using-nav_order"
-  },"172": {
+  },"174": {
     "doc": "Breadcrumbs",
     "title": "Breadcrumbs",
     "content": "When using the default layout, all pages except top-level pages will automatically have a list of ‘breadcrumbs’ at the top, linking to the parent page and to any higher-level ancestors. The default layout does not provide an option to suppress the list of breadcrumbs. To do that, you would need to define a new layout, or override the file _includes/components/breadcrumbs.html (e.g., with an empty file). ",
     "url": "/docs/navigation/parents/",
     
     "relUrl": "/docs/navigation/parents/"
-  },"173": {
+  },"175": {
     "doc": "Responsive Modifiers",
     "title": "Responsive modifiers",
     "content": "Just the Docs spacing works in conjunction with a variety of modifiers that allow you to target specific screen sizes responsively. Use these in conjunction with spacing and display prefix and suffix classes. | Modifier | Screen size | . | (none) | All screens until the next modifier | . | xs | 320px (20rem) and up | . | sm | 500px (31.25rem) and up | . | md | 740px (46.25rem) and up | . | lg | 1120px (70rem) and up | . | xl | 1400px (87.5rem) and up | . ",
     "url": "/docs/utilities/responsive-modifiers/#responsive-modifiers",
     
     "relUrl": "/docs/utilities/responsive-modifiers/#responsive-modifiers"
-  },"174": {
+  },"176": {
     "doc": "Responsive Modifiers",
     "title": "Responsive Modifiers",
     "content": " ",
     "url": "/docs/utilities/responsive-modifiers/",
     
     "relUrl": "/docs/utilities/responsive-modifiers/"
-  },"175": {
+  },"177": {
     "doc": "Schedule",
     "title": "Daily Schedule",
     "content": "Stay in sync with ATAAH KING daily. | Time | Task(s) | . | 12:00 AM – 1:00 AM | Prayer | Bible Study | Notes | . | 1:00 AM – 3:00 AM | Programming | Emails | Reading | . | 3:00 AM – 7:00 AM | [Nap] | . | 7:00 AM – 8:00 AM | Hygiene | Meditation &amp; Meal | Workout | . | 8:00 AM – 11:00 AM | Artist Development | Music Production | Socials | . | 11:00 AM – 2:00 PM | Morning Worship (JUSS JABZZ) | . | 2:00 PM – 6:00 PM | [Nap] | . | 6:00 PM – 9:00 PM | Promotions | Sales | Socials | . | 9:00 PM – 10:00 PM | Advisory / Reflection | . | 10:00 PM – 11:00 PM | Content Creation/Management &amp; Organization | . | 11:00 PM – 12:00 AM | Catch-up / Free Time | . ",
     "url": "/schedule/#daily-schedule",
     
     "relUrl": "/schedule/#daily-schedule"
-  },"176": {
+  },"178": {
     "doc": "Schedule",
     "title": "Schedule",
     "content": " ",
     "url": "/schedule/",
     
     "relUrl": "/schedule/"
-  },"177": {
+  },"179": {
     "doc": "Search",
     "title": "Search",
     "content": " ",
     "url": "/docs/search/",
     
     "relUrl": "/docs/search/"
-  },"178": {
+  },"180": {
     "doc": "Search",
     "title": "Table of contents",
     "content": ". | Enable search in configuration . | Search granularity | Search previews | Search tokenizer | Display URL in search results | Display search button | Focus search bar with a keyboard shortcut | . | Hiding pages from search | Generate search index when used as a gem | Custom content for search index . | Example: adding custom usage and examples fields | . | . Just the Docs uses lunr.js to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points: . | Page title | Page content | Page URL | . ",
     "url": "/docs/search/#table-of-contents",
     
     "relUrl": "/docs/search/#table-of-contents"
-  },"179": {
+  },"181": {
     "doc": "Search",
     "title": "Enable search in configuration",
     "content": "In your site’s _config.yml, enable search: . # Enable or disable the site search # Supports true (default) or false search_enabled: true . Search granularity . Pages are split into sections that can be searched individually. The sections are defined by the headings on the page. Each section is displayed in a separate search result. # Split pages into sections that can be searched individually # Supports 1 - 6, default: 2 search.heading_level: 2 . Search previews . A search result can contain previews that show where the search words are found in the specific section. # Maximum amount of previews per search result # Default: 3 search.previews: 3 # Maximum amount of words to display before a matched word in the preview # Default: 5 search.preview_words_before: 5 # Maximum amount of words to display after a matched word in the preview # Default: 10 search.preview_words_after: 10 . Search tokenizer . The default is for hyphens to separate tokens in search terms: gem-based is equivalent to gem based, matching either word. To allow search for hyphenated words: . # Set the search token separator # Default: /[\\s\\-/]+/ # Example: enable support for hyphenated search words search.tokenizer_separator: /[\\s/]+/ . Display URL in search results . # Display the relative url in search results # Supports true (default) or false search.rel_url: false . Display search button . The search button displays in the bottom right corner of the screen and triggers the search input when clicked. # Enable or disable the search button that appears in the bottom right corner of every page # Supports true or false (default) search.button: true . Focus search bar with a keyboard shortcut . Just the Docs supports focusing the search bar input with a keyboard shortcut. After setting the search.focus_shortcut_key config item key, users who press Ctrl + search.focus_shortcut_key (or on macOS, Command + search.focus_shortcut_key) will focus the search bar. Note that this feature is disabled by default. search.focus_shortcut_key should be a valid value from KeyboardEvent.key; this involves all ASCII alphanumeric values, as well as modifier keys. For example, . search: focus_shortcut_key: 'k' . Will make Ctrl + K focus the search bar for Windows users (and Command + K on macOS). ",
     "url": "/docs/search/#enable-search-in-configuration",
     
     "relUrl": "/docs/search/#enable-search-in-configuration"
-  },"180": {
+  },"182": {
     "doc": "Search",
     "title": "Hiding pages from search",
     "content": "Sometimes you might have a page that you don’t want to be indexed for the search nor to show up in search results, e.g., a 404 page. To exclude a page from search, add the search_exclude: true parameter to the page’s YAML front matter: . --- layout: default title: Page not found nav_exclude: true search_exclude: true --- . ",
     "url": "/docs/search/#hiding-pages-from-search",
     
     "relUrl": "/docs/search/#hiding-pages-from-search"
-  },"181": {
+  },"183": {
     "doc": "Search",
     "title": "Generate search index when used as a gem",
     "content": "If you use Just the Docs as a remote theme, you do not need the following steps. If you use the theme as a gem, you must initialize the search by running this rake command that comes with just-the-docs: . $ bundle exec just-the-docs rake search:init . This command creates the assets/js/zzzz-search-data.json file that Jekyll uses to create your search index. Alternatively, you can create the file manually with this content. ",
     "url": "/docs/search/#generate-search-index-when-used-as-a-gem",
     
     "relUrl": "/docs/search/#generate-search-index-when-used-as-a-gem"
-  },"182": {
+  },"184": {
     "doc": "Search",
     "title": "Custom content for search index",
     "content": "New (v0.4.0) . Advanced . By default, the search feature indexes a page’s .content, .title, and some headers within the .content. Other data (e.g. front matter, files in _data and assets) is not indexed. Users can customize what is indexed. Customizing search indices is an advanced feature that requires Javascript and Liquid knowledge. | When Just the Docs is a local or gem theme, ensure assets/js/zzzz-search-data.json is up-to-date with Generate search index when used as a gem. | Add a new file named _includes/lunr/custom-data.json. Insert custom Liquid code that reads your data (e.g. the page object at include.page) then generates custom Javascript fields that hold the custom data you want to index. Verify these fields in the generated assets/js/search-data.json. | Add a new file named _includes/lunr/custom-index.js. Insert custom Javascript code that reads your custom Javascript fields and inserts them into the search index. You may want to inspect assets/js/just-the-docs.js to better understand the code. | . Example: adding custom usage and examples fields . This example adds front matter usage and examples fields to the search index. _includes/lunr/custom-data.json custom code reads the page usage and examples fields, normalizes the text, and writes the text to custom Javascript myusage and myexamples fields. Javascript fields are similar yet not the same as JSON. jsonify will probably work for most scenarios. {%- capture newline %} {% endcapture -%} \"myusage\": {{ include.page.usage | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }}, \"myexamples\": {{ include.page.examples | markdownify | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }}, . _includes/lunr/custom-index.js custom code is inserted into the Javascript loop of assets/js/just-the-docs.js. All custom Javascript fields are accessed as fields of docs[i] such as docs[i].myusage. Finally, append your custom fields on to the already existing docs[i].content. const content_to_merge = [docs[i].content, docs[i].myusage, docs[i].myexamples]; docs[i].content = content_to_merge.join(' '); . ",
     "url": "/docs/search/#custom-content-for-search-index",
     
     "relUrl": "/docs/search/#custom-content-for-search-index"
-  },"183": {
+  },"185": {
     "doc": "Tables",
     "title": "Tables",
     "content": "Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | . ",
     "url": "/docs/ui-components/tables/",
     
     "relUrl": "/docs/ui-components/tables/"
-  },"184": {
+  },"186": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"185": {
+  },"187": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font stack | Responsive type scale | Headings | Body text | Inline elements | Typographic Utilities | . ",
     "url": "/docs/ui-components/typography/#table-of-contents",
     
     "relUrl": "/docs/ui-components/typography/#table-of-contents"
-  },"186": {
+  },"188": {
     "doc": "Typography",
     "title": "Font stack",
     "content": "By default, Just the Docs uses a native system font stack for sans-serif fonts: . system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Segoe UI Emoji\" . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . For monospace type, like code snippets or the &lt;pre&gt; element, Just the Docs uses a native system font stack for monospace fonts: . \"SFMono-Regular\", Menlo, Consolas, Monospace . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . ",
     "url": "/docs/ui-components/typography/#font-stack",
     
     "relUrl": "/docs/ui-components/typography/#font-stack"
-  },"187": {
+  },"189": {
     "doc": "Typography",
     "title": "Responsive type scale",
     "content": "Just the Docs uses a responsive type scale that shifts depending on the viewport size. | Selector | Small screen size font-size | Large screen size font-size | . | h1, .text-alpha | 32px | 36px | . | h2, .text-beta | 18px | 24px | . | h3, .text-gamma | 16px | 18px | . | h4, .text-delta | 14px | 16px | . | h5, .text-epsilon | 16px | 18px | . | h6, .text-zeta | 18px | 24px | . | body | 14px | 16px | . ",
     "url": "/docs/ui-components/typography/#responsive-type-scale",
     
     "relUrl": "/docs/ui-components/typography/#responsive-type-scale"
-  },"188": {
+  },"190": {
     "doc": "Typography",
     "title": "Headings",
     "content": "Headings are rendered like this: . ",
     "url": "/docs/ui-components/typography/#headings",
     
     "relUrl": "/docs/ui-components/typography/#headings"
-  },"189": {
+  },"191": {
     "doc": "Typography",
     "title": "Heading 1",
     "content": " ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"190": {
+  },"192": {
     "doc": "Typography",
     "title": "Heading 2",
     "content": "Heading 3 . Heading 4 . Heading 5 . Heading 6 . # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 . ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"191": {
+  },"193": {
     "doc": "Typography",
     "title": "Body text",
     "content": "Default body text is rendered like this: . Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
     "url": "/docs/ui-components/typography/#body-text",
     
     "relUrl": "/docs/ui-components/typography/#body-text"
-  },"192": {
+  },"194": {
     "doc": "Typography",
     "title": "Inline elements",
     "content": "Text can be bold, italic, or strikethrough. Link to another page. Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](/). ",
     "url": "/docs/ui-components/typography/#inline-elements",
     
     "relUrl": "/docs/ui-components/typography/#inline-elements"
-  },"193": {
+  },"195": {
     "doc": "Typography",
     "title": "Typographic Utilities",
     "content": "There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization. View typography utilities . ",
     "url": "/docs/ui-components/typography/#typographic-utilities",
     
     "relUrl": "/docs/ui-components/typography/#typographic-utilities"
-  },"194": {
+  },"196": {
     "doc": "Typography",
     "title": "Typography Utilities",
     "content": " ",
     "url": "/docs/utilities/typography/#typography-utilities",
     
     "relUrl": "/docs/utilities/typography/#typography-utilities"
-  },"195": {
+  },"197": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font size | Font weight | Line height | Text justification | . ",
     "url": "/docs/utilities/typography/#table-of-contents",
     
     "relUrl": "/docs/utilities/typography/#table-of-contents"
-  },"196": {
+  },"198": {
     "doc": "Typography",
     "title": "Font size",
     "content": "Use the .fs-1 - .fs-10 to set an explicit font-size. | Class | Small screen size font-size | Large screen size font-size | . | .fs-1 | 9px | 10px | . | .fs-2 | 11px | 12px | . | .fs-3 | 12px | 14px | . | .fs-4 | 14px | 16px | . | .fs-5 | 16px | 18px | . | .fs-6 | 18px | 24px | . | .fs-7 | 24px | 32px | . | .fs-8 | 32px | 38px | . | .fs-9 | 38px | 42px | . | .fs-10 | 42px | 48px | . Font size 1 . Font size 2 . Font size 3 . Font size 4 . Font size 5 . Font size 6 . Font size 7 . Font size 8 . Font size 9 . Font size 10 . In Markdown, use the `{: }` wrapper to apply custom classes: Font size 1 {: .fs-1 } Font size 2 {: .fs-2 } Font size 3 {: .fs-3 } Font size 4 {: .fs-4 } Font size 5 {: .fs-5 } Font size 6 {: .fs-6 } Font size 7 {: .fs-7 } Font size 8 {: .fs-8 } Font size 9 {: .fs-9 } Font size 10 {: .fs-10 } . ",
     "url": "/docs/utilities/typography/#font-size",
     
     "relUrl": "/docs/utilities/typography/#font-size"
-  },"197": {
+  },"199": {
     "doc": "Typography",
     "title": "Font weight",
     "content": "Use the .fw-300 - .fw-700 to set an explicit font-weight. Font weight 300 . Font weight 400 . Font weight 500 . Font weight 700 . In Markdown, use the `{: }` wrapper to apply custom classes: Font weight 300 {: .fw-300 } Font weight 400 {: .fw-400 } Font weight 500 {: .fw-500 } Font weight 700 {: .fw-700 } . ",
     "url": "/docs/utilities/typography/#font-weight",
     
     "relUrl": "/docs/utilities/typography/#font-weight"
-  },"198": {
+  },"200": {
     "doc": "Typography",
     "title": "Line height",
     "content": "Use the lh- classes to explicitly apply line height to text. | Class | line-height value | Notes | . | .lh-0 | 0 |   | . | .lh-tight | 1.1 | Default for headings | . | .lh-default | 1.4 | Default for body (paragraphs) | . No Line height No Line height . Tight line height Tight line height . Default line height Default line height . In Markdown, use the `{: }` wrapper to apply custom classes: No Line height No Line height {: .lh-0 } Tight line height Tight line height {: .lh-tight } Default line height Default line height {: .fh-default } . ",
     "url": "/docs/utilities/typography/#line-height",
     
     "relUrl": "/docs/utilities/typography/#line-height"
-  },"199": {
+  },"201": {
     "doc": "Typography",
     "title": "Text justification",
     "content": "By default text is justified left. Use these text- classes to override settings: . | Class | What it does | . | .text-left | text-align: left | . | .text-right | text-align: right | . | .text-center | text-align: center | . ",
     "url": "/docs/utilities/typography/#text-justification",
     
     "relUrl": "/docs/utilities/typography/#text-justification"
-  },"200": {
+  },"202": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "/docs/utilities/typography/",
     
     "relUrl": "/docs/utilities/typography/"
-  },"201": {
+  },"203": {
     "doc": "X",
     "title": "X",
     "content": "title: X parent: Ancestry . ",
     "url": "/docs/navigation/main/x/",
     
     "relUrl": "/docs/navigation/main/x/"
-  },"202": {
+  },"204": {
     "doc": "S",
     "title": "S",
     "content": "title: S parent: X . ",
     "url": "/docs/navigation/main/xs/",
     
     "relUrl": "/docs/navigation/main/xs/"
-  },"203": {
+  },"205": {
     "doc": "T",
     "title": "T",
     "content": "title: T parent: S grand_parent: X . ",
     "url": "/docs/navigation/main/xt/",
     
     "relUrl": "/docs/navigation/main/xt/"
-  },"204": {
+  },"206": {
     "doc": "U",
     "title": "U",
     "content": "title: U parent: T ancestor: X . ",
     "url": "/docs/navigation/main/xu/",
     
     "relUrl": "/docs/navigation/main/xu/"
-  },"205": {
+  },"207": {
     "doc": "Y",
     "title": "Y",
     "content": "title: Y parent: Ancestry . ",
     "url": "/docs/navigation/main/y/",
     
     "relUrl": "/docs/navigation/main/y/"
-  },"206": {
+  },"208": {
     "doc": "S",
     "title": "S",
     "content": "title: S parent: Y . ",
     "url": "/docs/navigation/main/ys/",
     
     "relUrl": "/docs/navigation/main/ys/"
-  },"207": {
+  },"209": {
     "doc": "T",
     "title": "T",
     "content": "title: T parent: S ancestor: Y . ",
     "url": "/docs/navigation/main/yt/",
     
     "relUrl": "/docs/navigation/main/yt/"
-  },"208": {
+  },"210": {
     "doc": "U",
     "title": "U",
     "content": "title: U parent: T ancestor: Y . ",

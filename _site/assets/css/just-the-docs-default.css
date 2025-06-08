@@ -7785,6 +7785,14 @@ blockquote.warning-title > p:last-child {
   font-weight: bold;
 }
 
+.current-time-row a {
+  color: lightpink !important;
+}
+
+.current-time-row a:hover {
+  text-decoration: wavy underline;
+}
+
 .schedule-table tbody tr:hover,
 .schedule-table tbody tr:hover > td {
   background-color: #a285f7; /* lighter purple for hover */
