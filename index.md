@@ -9,7 +9,7 @@ permalink: /
 # REIGNSOUNDXL: ATAAH KING, GBS<sup class="tm-title">TM</sup>, IIIAMDE$$, JUSS JABZZ, Reignsound<sup class="tm-title">SM</sup> Records ― Sony<sup class="tmr-title">&reg;</sup> Music
 {: .fs-9 }
 
-*GLOBAL* ― Rapper ATAAH KING in collaboration with Grillz by Scotty, IIIAMDE$$, and JUSS JABZZ; plans to rejoin Sony<sup class="tmr-lede">&reg;</sup> Music.
+*GLOBAL* ― Rapper ATAAH KING in collaboration with Grillz by Scotty<sup class="tm">TM</sup>, IIIAMDE$$, and JUSS JABZZ; plans to rejoin Sony<sup class="tmr-lede">&reg;</sup>.
 {: .fs-6 .fw-300 .mb-0 }
 
 *Published on*: Saturday, May 3, 2025 &ndash; *Set for redistribution on*: June 17, 2025
